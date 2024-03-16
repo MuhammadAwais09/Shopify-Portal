@@ -1,17 +1,70 @@
-Title: Shopify App Portal
+# Getting Started with Create React App
 
-Overview
-The Shopify App Portal is a comprehensive web application designed to enhance the Shopify ecosystem by providing a centralized platform for managing various aspects of a Shopify store. This project is built using Vue.js for the frontend and Next.js for server-side rendering, ensuring a seamless and responsive user experience. The portal is structured into four main sections, each serving a distinct purpose to streamline the management and operation of a Shopify store.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Key Features
-1. Inbox
-The Inbox section is a chat application designed to facilitate real-time communication between store owners and their teams. It allows for the sending and receiving of messages, enabling instant feedback and support. This feature is crucial for resolving issues and providing personalized assistance to customers.
+## Available Scripts
 
-2. Team
-The Team section presents a data grid that displays all team members, their roles, and responsibilities within the Shopify store. This feature is essential for managing team dynamics, tracking individual contributions, and ensuring smooth operations.
+In the project directory, you can run:
 
-3. Analytics
-The Analytics section is a powerful tool for tracking and visualizing store performance. It includes ticket cards that provide insights into customer inquiries and support requests, as well as graph charts that illustrate trends and patterns in sales, customer engagement, and other key metrics. This section is designed to help store owners make informed decisions and identify areas for improvement.
+### `npm start`
 
-4. Connect
-The Connect section is a feature that automates the process of sending emails to users. This can be used for various purposes, such as sending welcome emails, promotional messages, or notifications about new products. By automating these tasks, the Connect section helps streamline marketing efforts and improve customer engagement.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
