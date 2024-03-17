@@ -7,7 +7,6 @@ import HorizontalHeader from '../full/horizontal/header/Header';
 import Sidebar from './vertical/sidebar/Sidebar';
 import Customizer from './shared/customizer/Customizer';
 import Navigation from './horizontal/navbar/Navbar';
-import Inbox from 'src/views/inbox/Inbox';
 
 const MainWrapper = styled('div')(() => ({
   display: 'flex',

@@ -7,7 +7,7 @@ const FullLayout = Loadable(lazy(() => import('../layouts/full/FullLayout')));
 const BlankLayout = Loadable(lazy(() => import('../layouts/blank/BlankLayout')));
 
 /* ****Pages***** */
-const Inbox = Loadable(lazy(() => import('../views/inbox/Inbox')));
+const Tickets = Loadable(lazy(() => import('../views/tickets/Tickets')));
 const TrainYourBot = Loadable(lazy(() => import('../views/trainYourBot/TrainYourBot')));
 const Analytics = Loadable(lazy(() => import('../views/analytics/Analytics')));
 const Team = Loadable(lazy(() => import('../views/team/Team')));
@@ -19,7 +19,7 @@ const Router = [
     path: '/',
     element: <FullLayout/>,
     children: [
-      { path: '/inbox', element: <Inbox /> },
+      { path: '/', element: <Tickets /> },
       { path: '/trainyourbot', element: <TrainYourBot /> },
       { path: '/analytics', element: <Analytics /> },
       { path: '/team', element: <Team /> },
